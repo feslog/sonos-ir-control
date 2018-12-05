@@ -1,0 +1,16 @@
+{
+  "name": "sonos-ir-control",
+  "version": "0.0.1",
+  "description": "Control AV gear via IR in response to Sonos activity",
+  "author": "Gabe Siftar <feslog@gmail.com>",
+  "dependencies": {
+    "sonos-http-api": "https://github.com/jishi/node-sonos-http-api/archive/v1.4.3.tar.gz",
+    "json5": "^0.5.1",
+    "sonos-discovery": "https://github.com/jishi/node-sonos-discovery/archive/v1.7.2.tar.gz",
+    "node-lirc": "^0.0.4"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": "^2.0.0"
+  }
+}
